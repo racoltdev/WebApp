@@ -5,9 +5,14 @@ import glob
 
 import pydicom
 app = Flask(__name__)
+
 @app.route("/")
 def main():
     return render_template("index.html")
+
+@app.route("/About")
+def about_main():
+    return render_template("about.html")
 
 
 @app.route('/data', methods=['GET'])

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Our WebApp</title>
+  <!-- Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Animate.css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Our WebApp</a>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-4">
+    <h2>About Us</h2>
+    <p>Welcome to the about page of our exciting WebApp project! Meet the talented developers behind it:</p>
+
+    <!-- Developers Section -->
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Ameh</h4>
+        <p>Passionate about coding and creating innovative solutions.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Andrew</h4>
+        <p>Enthusiastic developer with a knack for problem-solving.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Ryan</h4>
+        <p>Detail-oriented developer with a love for clean code.</p>
+      </div>
+    </div>
+
+    <!-- Project Section - Activity 1 -->
+    <hr>
+    <h2>Project: Activity 1</h2>
+    <p>Explore our first project, Activity 1, and discover the exciting features we've implemented for you.</p>
+
+    <!-- Course Section -->
+    <hr>
+    <h2>Special Topics in CIS: Software Testing and Automation</h2>
+    <p>Our WebApp project is part of the course "Special Topics in CIS: Software Testing and Automation," led by Professor Amir. Dive into the world of testing and automation with us!</p>
+
+    <!-- Dive In Button with Cartoon Explosion Effect -->
+    <button class="btn btn-primary mt-4" id="diveInBtn">Dive In!</button>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and Animate.css scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+
+  <!-- JavaScript for Cartoon Explosion Effect -->
+  <script>
+    document.getElementById('diveInBtn').addEventListener('click', function() {
+      // Add multiple animation classes for cartoon explosion effect
+      this.classList.add('animate__animated', 'animate__backOutUp', 'animate__fadeOut', 'animate__rotateOut', 'animate__zoomOut');
+    });
+  </script>
+</body>
+</html>

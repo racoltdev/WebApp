@@ -7,7 +7,7 @@ import pydicom
 app = Flask(__name__)
 @app.route("/")
 def main():
-    return render_template("index.html")
+    return render_template("about.html")
 
 
 @app.route('/data', methods=['GET'])
